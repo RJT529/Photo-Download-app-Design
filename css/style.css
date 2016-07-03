@@ -1,0 +1,236 @@
+/*NAVBAR */
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+	transition:background-color 1s;
+	
+}
+.navbar-nav{
+	margin:35px 100px 15px;
+}
+
+.navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:focus,.navbar-default .navbar-nav li a:active:focus{
+	color:#fff;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color:#16a085;
+}
+
+.logo img {
+	margin:15px 0px 0px 100px;
+}
+
+/*MEDIA*/
+
+@media(max-width: 768px) {
+	.logo img{
+		margin:2px 0 0 15px;
+	}
+
+	.navbar-nav {
+		margin:0;
+		background-color: rgba(0,0,0,0.8);
+	}
+
+	.navbar-toggle{
+		margin-top:45px;
+	}
+}
+/*MEDIA COLPLETE*/
+
+/*NAVBAR COMPLETE*/
+
+
+/*SLIDER*/
+
+#slider{
+	background: url('../img/bg.jpg');
+	width: 100%;
+	background-size: cover;
+}
+
+.item{
+	color:#fff;
+	padding: 170px 0;
+}
+.item h2{
+	font-size: 1.8em;
+}
+
+.carousel-indicators li{
+	background-color: #fff;
+	margin:5px;
+}
+
+.carousel-indicators .active{
+	background-color: #16a085;
+	margin: 5px;
+	border:1px solid #16a085;
+}
+
+.btn-success{
+	background-color: #16a085 !important;
+	border-color: #16a085;
+	font-size: 1em;
+	padding: 10px 20px;
+	margin: 15px 0;
+
+}
+
+.btn-success:active{
+	background-color: #000 !important;
+}
+.btn-success:hover{
+	background-color: #000 !important;
+	border-color: #000;
+}
+
+
+
+/******************* PHOTO SECTION ************************/
+
+#photo{
+	padding: 80px 0 80px 0;
+	background-color: #f5f6f7;
+}
+
+#photo h1{
+	font-size: 1.2em;
+	color:#16a085;
+	font-weight: 700;
+}
+
+#photo .fa{
+	color:#16a085;
+}
+
+#photo .fa:hover{
+	color:#177a67;
+}
+
+/******************PHOTO SECTION COMPLETE*************************/
+
+/************DESIGN**************/
+#design{
+	padding: 80px 0 80px 0;
+}
+
+#design h1{
+	font-size: 1.5em;
+	font-weight: 700;
+	color:#177a67;
+	padding-top: 50px;
+}
+
+@media(max-width: 768px) {
+	#design{
+		text-align: center;
+	}
+}
+/*************DESIGN END*******************/
+
+/*******************COMMUNITY****************/
+
+#community{
+	background-color: #f5f6f7;
+	padding: 80px 0 80px 0;
+}
+
+#community h1{
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #177a67;
+}
+
+#community .green{
+	padding-top:30px;
+}
+
+@media(max-width: 768px){
+	#community .image{
+		padding-top: 15px;
+	}
+}
+/***********COMMUNITY END*******************/	
+
+
+/******************SIGN UP******************/
+
+#signup{
+	background: url('../img/last_img.png');
+	width: 100%;
+	background-size: cover;
+	padding: 200px 0 300px;
+}
+
+#signup h1{
+	color:#fff;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+#signup .btn-default{
+	background-color: #177a67;
+	border-color: #177a67;
+}
+
+#signup .fa{
+	color:#fff;
+}
+#signup .btn-default:hover{
+	background-color: #000;
+	border-color: #000;
+}
+/*********************SIGN UP END*******************/
+
+/******************DOWNLOAD ********************/
+
+#download{
+	background-color: #f5f6f7;
+	padding: 80px 0 80px;
+}
+#download h1{
+	color:#177a67;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+#download p, img{
+	padding: 10px 0 10px 0;
+}
+
+@media(max-width: 768px){
+	.link{
+		width: 80%;
+	}
+}
+/*************************DOWNLOAD END********************/
+
+/***********************FOOTER **************************/
+
+
+#footer{
+	padding: 60px 0 60px;
+}
+
+#footer p,a{
+	font-weight: 700;
+	color:#000;
+}
+#footer a:hover{
+	color:#177a67;
+	text-decoration: none;
+}
+
+@media(max-width: 768px){
+	#footer{
+		text-align: center;
+	}
+
+	#footer img{
+		margin:0 auto;
+	}
+}
+/**********************FOOTER END***********************/
